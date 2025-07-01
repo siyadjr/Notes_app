@@ -5,8 +5,6 @@ import 'package:notes_app/presentation/auth/widgets/auth_header.dart';
 import 'package:notes_app/presentation/auth/widgets/auth_text_field.dart';
 import 'package:notes_app/presentation/auth/widgets/sign_up_button.dart';
 import 'package:notes_app/presentation/auth/widgets/signin_navigator.dart';
-import 'package:notes_app/providers/auth_provider.dart';
-import 'package:provider/provider.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});

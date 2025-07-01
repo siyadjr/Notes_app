@@ -12,4 +12,7 @@ class LoginSharedPref {
     final pref = await SharedPreferences.getInstance();
     return pref.getBool(userLoggedKey) ?? false;
   }
+  Future<void>setLogout()async{    final pref = await SharedPreferences.getInstance();
+    await pref.setBool(userLoggedKey, false);
+  }
 }
